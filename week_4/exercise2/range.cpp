@@ -18,6 +18,22 @@ int main() {
 	bool in_bound; // set in_bound to true if the target is between numbers, false otherwise
 
         //-------------------- YOUR CODE BELOW -------------------------
+		if (bound1 > bound2) {
+			if (target < bound1 && target > bound2){
+			in_bound = true;	
+			} else {
+				in_bound = false;
+		}
+		} else if (bound1 < bound2){
+			if (target < bound2 && target > bound1){
+				in_bound = true;
+			} else {
+				in_bound = false;
+			}
+		} else {
+			in_bound = false;
+		}
+
         //-------------------- YOUR CODE ABOVE -------------------------
 	
 

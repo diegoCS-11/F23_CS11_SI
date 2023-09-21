@@ -17,19 +17,19 @@ int main() {
 
 	// ------------ ONLY WORK ON CODE BELOW -------------
 
-	if (/* Your Code */) {
+	if (has_carrots) {
 		cout << "Bought carrots." << endl;
 	}
-	if (/* Your code */) {
+	if (has_apples) {
 		cout << "Bought apples." << endl;
 	}
-	if (/* Your code */) {
+	if (has_milk) {
 		cout << "Bought milk." << endl;
 	}
-	if (/* Your code */) {
+	if (has_bread) {
 		cout << "Bought bread." << endl;
 	}
-	if (/* Your code */) {
+	if (has_pears) {
 		cout << "Bought pears." << endl;
 	}
 
@@ -55,19 +55,19 @@ int main() {
 
 	// ------------ ONLY WORK ON CODE BELOW -------------
 
-	if (/* Your code */) {
+	if (has_pizza == true) {
 		cout << "Bought pizza." << endl;
-	} else if (/* Your code */) {
+	} else if (has_pasta == false) {
 		cout << "Bought pasta." << endl;
-	} else if (/* Your code */) {
+	} else if (has_salad == false) {
 		cout << "Bought salad." << endl;
-	} else if (/* Your code */) {
+	} else if (has_soup == false) {
 		cout << "Bought soup." << endl;
 	} else {
 		cout << "Bought whatever they had." << endl;
 	}
 
-	// ------------ ONLY WORK ON CODE BELOW -------------
+	//------------ ONLY WORK ON CODE BELOW -------------
 	
 	return 0;
 }
